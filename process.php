@@ -1,8 +1,8 @@
 <?php
 
-$fullname = $_POST['fullname'];
-$email = $_POST['email'];
-$password = $_POST['password'];
+$fullname = $_GET['fullname'];
+$email = $_GET['email'];
+$password = $_GET['password'];
 
 echo "<h2>Signup Successful</h2>";
 echo "Name: " . $fullname . "<br>";
